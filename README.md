@@ -21,7 +21,7 @@ form.addEventListener("submit", function(event) {
 
     var recaptcha = document.querySelector('#g-recaptcha-response').value;
 
-    fetch('HEROKU_APP_URL', {
+    fetch('HEROKU_APP_URL_HERE', {
         method:'POST',
         headers: {
             'Accept': 'application/json, text/plain, */*',
