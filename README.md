@@ -41,3 +41,5 @@ form.addEventListener("submit", function(event) {
     });
 }, false);
 </code></pre>
+
+Form will be submitted if the captcha passes. If not, show error messages.
