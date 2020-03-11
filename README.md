@@ -10,7 +10,7 @@
 
 ## Frontend Instructions
 1. Add captcha script tag `<script src="https://www.google.com/recaptcha/api.js" async defer></script>`
-2. Add captcha element to form `<div class="g-recaptcha" data-sitekey="6LcpkuAUAAAAAK8PvQ5Lz24yd_Os7vh9RCHvCAGR"></div>`
+2. Add captcha element to form `<div class="g-recaptcha" data-sitekey="YOUR_reCAPTCHA_PUBLIC_SITE_KEY_HERE"></div>`
 3. Add form event listener to send reCaptca data to Heroku server:
 
 <pre><code>var form = document.querySelector('#contact-form');
