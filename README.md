@@ -1,4 +1,4 @@
-# Semmle reCaptcha V2 Server
+# reCaptcha V2 Server
 
 This code is to be deployed to a Heroku app. The frontend form will then send the captcha data to the Heroku app and wait for a success response before submitting the form.
 
