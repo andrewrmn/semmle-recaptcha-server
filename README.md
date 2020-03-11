@@ -1,0 +1,1 @@
+# semmle-recaptcha-server
