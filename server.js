@@ -16,7 +16,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', (req, res, next) => {
-  res.send('reCaptcha verification...');
+  res.send('reCaptcha verification');
 });
 
 app.post('/', (req, res) => {
@@ -44,7 +44,7 @@ app.post('/', (req, res) => {
     }
 
     //If Successful
-    return res.json({"success": true, "msg":"Captcha passed from live server"});
+    return res.json({"success": true, "msg":"reCaptcha passed from live server"});
   });
 });
 
