@@ -16,7 +16,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', (req, res, next) => {
-  res.send('reCaptcha verification');
+  res.send('reCaptcha verification...');
 });
 
 app.post('/', (req, res) => {
